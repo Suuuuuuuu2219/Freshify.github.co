@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freshify - Farm-to-Consumer Marketplace</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Freshify</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <h1>Welcome to Freshify</h1>
+            <p>Connecting farmers and consumers directly for fresh, organic produce.</p>
+            <a href="#features" class="btn">Explore Features</a>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>About Freshify</h2>
+        <p>Freshify is an online marketplace that connects local farmers with consumers. We aim to promote sustainable agriculture and deliver fresh produce to your doorstep.</p>
+    </section>
+
+    <section id="features" class="features-section">
+        <h2>Features</h2>
+        <div class="features-grid">
+            <div class="feature-item">
+                <h3>For Farmers</h3>
+                <p>Sell your produce directly to customers without middlemen.</p>
+            </div>
+            <div class="feature-item">
+                <h3>For Consumers</h3>
+                <p>Get fresh, organic vegetables delivered to your home.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Easy Ordering</h3>
+                <p>Simple and user-friendly interface to place your orders quickly.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <p>Have questions? Reach out to us!</p>
+        <form id="contact-form">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Freshify. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
